@@ -1,0 +1,11 @@
+﻿a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+
+bin_and = a & b
+bin_or = a | b
+bin_xor = a ^ b
+bin_inv = ~ a
+bin_l = a << 2
+bin_r = a >> 2
+
+print(bin_and, bin_or, bin_xor, bin_inv, bin_l, bin_r)
