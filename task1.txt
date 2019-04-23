@@ -1,0 +1,11 @@
+﻿num = int(input("Введите трехзначное число: "))
+
+c = num % 10
+b = (int(num/10) % 10)
+a = num // 100
+
+sum = a+b+c
+
+mul = a*b*c
+
+print(sum, mul)
